@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        
+        body{
+            background-image: url(cover.jpeg);
+            background-size:cover;
+        }
+        h1{
+            text-align: center;
+            color:#3798d4;
+            font-size: 130px;
+            font-family: 'Chonburi', cursive;
+            position: relative;
+            top: 160px;
+        }
+        .prapa{
+            font-size: 30px;
+            position: relative;
+            left:454px;
+            border-radius: 17px;
+            height:60px;
+            width: 250px;
+            transition:1s;
+            top: 100px;
+            color: whitesmoke;
+            background-color: #1f1f1f;
+            border-style: none;
+            margin-right: 12px;
+            box-shadow: #3798d4 3px 0 5px;
+            font-family: 'Source Sans Pro', sans-serif;
+
+        }
+        .prapa:hover{
+            background-color: #3798d4;
+            color: #1f1f1f;
+            transition:1s;
+            box-shadow: #1f1f1f 3px 0 5px;
+        }
+
+        img{
+            width: 50px;
+            position: absolute;
+            bottom:50px;
+            left:94px;
+
+        }
+
+        #linkedin{
+            left:190px;
+            width:47px;
+            bottom:55px;
+        }
+
+        #twitter{
+            left:280px;
+        }
+
+    </style>
+    
+    
+</head>
+<body>
+    <h1>Welcome</h1>
+    <button class="prapa" onclick="window.location.href='cv.html' " >My CV</button>
+    <button class="prapa" onclick="window.location.href='schedule.html'">My Schedule</button>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <a href = "https://instagram.com/alexyouness?igshid=ZDdkNTZiNTM=">
+    <img src="insta.png" alt="instagram">
+    </a>
+    <a href ="https://www.linkedin.com/in/alex-younes-821773237">
+    <img id="linkedin"src="linkedin-solid.svg" alt="LinkedIn">
+    </a>
+    <a href ="https://twitter.com/alex_youness?t=4d3wKQVxmuyWemufTLi6yQ&s=09">
+        <img id="twitter" src="twitter-solid.svg">
+    </a>
+</body>
+</html>

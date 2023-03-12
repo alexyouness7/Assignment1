@@ -1,0 +1,232 @@
+ body {
+    font-family: Arial, sans-serif;
+    
+  }
+ table {
+    
+    width: 1390px;
+    height: 30px;
+    position: absolute;
+    top:6px;
+    left:10px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+    color: white;
+ 
+  }
+  th {
+    background-color: #3798d4;
+  }
+
+  
+  .vl {
+   border-left: 1px solid #3798d4;
+   height:   1000px;
+   position: relative;
+   top:-970px;
+   left: 45px;
+   display:flex;
+
+  }
+   h5{
+   color: #3798d4;
+   }
+   hr{
+   border: 0.5px solid #3798d4;
+   }
+  .wrapper{ 
+    display:flex; 
+    height:10px;
+    } 
+   
+  .wrapper>div{ 
+    margin-right:211.5px;  
+  } 
+  
+  .cover{
+    height: 120px;
+    width: 209px;
+    border-radius: 10%;
+    background-color: #3798d4;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align:center;
+    box-shadow: 0 0 50px #3798d4;
+    
+  }
+ 
+/*lezem tshil l it div w thet bel cover l katibe ma3 id lal title w id lal list hek fik tethakam b kelshi */
+
+  .add{
+      height: 70px;
+      width: 208px;
+      border-radius: 10px;
+      background-color: #3798d4;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      text-align:center;
+     
+  }
+
+.disc{
+ 
+  display:flex;
+  gap:644px;
+  align-items: stretch;
+  position: absolute;
+  left:24px;
+  top:247px;
+}
+
+.TR{
+ 
+  display:flex;
+  gap:218px;
+  align-items: stretch;
+  position: absolute;
+  left:24px;
+  top:247px;
+}
+
+
+.chem{
+  height: 120px;
+    width: 208px;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+   position:relative;
+   left:10px;
+   top:-12px;
+}
+.course1{
+    display:flex;
+    gap:642px;
+    padding:1rem;
+    
+    position: absolute;
+    left:40px;
+    top:213px;
+}
+
+.course2{
+  display:flex;
+  gap:642px;
+  padding:1rem;
+  align-items: stretch;
+  position: absolute;
+  left:40px;
+  top:475px;
+}
+
+.course3{
+  display:flex;
+  gap:217px;
+  padding:1rem;
+  align-items: stretch;
+  position: absolute;
+  left:252px;
+  top:213px;
+}
+
+.course4{
+  display:flex;
+  gap:217px;
+  padding:1rem;
+  align-items: stretch;
+  position: absolute;
+  left:252px;
+  top:602px;
+}
+
+.course5{
+  display:flex;
+  gap:217px;
+  padding:1rem;
+  align-items: stretch;
+  position: absolute;
+  left:252px;
+  top:737px;
+}
+
+.course6{
+  display:flex;
+  gap:217px;
+  padding:1rem;
+  align-items: stretch;
+  position: absolute;
+  left:252px;
+  top:475px;
+}
+
+.add-course{
+    display:flex;
+    gap:217px;
+    padding:1rem;
+    align-items: stretch;
+    position: absolute;
+    left:677px;
+    top:388px;
+}
+.mobile{
+  height: 120px;
+  width: 208px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  position:relative;
+  left:10px;
+  top:254px
+}
+
+.it{
+  height: 120px;
+  width: 208px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  position:relative;
+  left:220px;
+  top:-12px;
+  background:transparent;
+}
+
+.CN{
+  height: 120px;
+  width: 208px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  position:relative;
+  left:220px;
+  top:376px;
+}
+
+.theory{
+  height: 120px;
+  width: 208px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  position:relative;
+  left:220px;
+  top:511px;
+}
+
+.math{
+  height: 120px;
+  width: 208px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  position:relative;
+  left:220px;
+  top:254px;
+}
+.math2{
+  height: 120px;
+  width: 208px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  position:relative;
+  left:-448px;
+  top:6px;
+}

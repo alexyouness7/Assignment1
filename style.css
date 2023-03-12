@@ -1,0 +1,169 @@
+
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+    
+}
+
+
+img{
+    height:22px;
+     width:19px;
+     vertical-align: middle;
+     padding-right: 20px;
+     border:2px;
+}
+span{
+    font-size: smaller;
+    margin: 5px;
+}
+h1 {
+	margin: 0;
+	font-size: 36px;
+    margin-left:20px ;
+}
+
+h2 {
+	margin: 0;
+	font-size: 18px;
+	font-weight:normal;
+	margin-top: 10px;
+    margin-left: 25px;
+    
+}
+
+#main {
+	margin: 20px;
+	width:500px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #888888;
+    position:absolute;
+    left:140px;
+}
+
+#main:hover{
+    background-color:azure;
+    box-shadow: 0 0 50px  #3798d4;
+    transition: 2s ;
+}
+
+h3 {
+	color: #1f1f1f;
+	margin-top: 20px;
+	font-size: 24px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+li::before {
+	content: "\2022";
+	color: #3798d4;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.rows {
+    height: 35px;
+}
+
+.contact {
+    border-style: solid;
+    border-color: #3798d4;
+    border-radius: 10px;
+    padding: 7px;
+    border-width: 3px;
+    text-align: center;
+    width:250px;
+    margin-bottom: 10px;
+    color: #3798d4;
+}
+
+table {
+    position: relative;
+    left: 20px;
+}
+
+#alex{
+    width:200px;
+    height:200px;
+   border-radius: 50%;
+   border-width:5px;
+   border-color:#3798d4 ;
+   border-style: solid;
+   padding: 0;
+   position: relative;
+   left:35px;
+
+}
+
+.white{
+width:30px;
+height:2px;
+background-color: #3798d4;
+border-style: solid;
+}
+
+.list{
+    position: relative;
+    left:35px;
+   
+}
+
+#second{
+position:absolute;
+top:0px;
+left:690px;
+margin: 20px;
+width:500px;
+height: 1100px;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 5px #3798d4;
+}
+#second:hover{
+    background-color: azure;
+    box-shadow: 0 0 50px #3798d4;
+    transition: 2s ;
+}
+
+.third{
+    border-style: solid;
+    border-color: #3798d4;
+    border-radius: 10px;
+    padding: 7px;
+    border-width: 3px;
+    text-align: center;
+    width:250px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #3798d4;
+    font-weight: bolder;
+}
+
+#next{
+    position: absolute;
+    left:210px;
+    top:615px;
+}
+
+li:hover {
+    background-color:#9bd9ff; 
+    cursor:grab;
+    width:fit-content;
+    height: fit-content;
+  }
+
+ 
