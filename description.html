@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz Description</title>
+	<link rel="stylesheet" type="text/css" href="description.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to the Quiz!</h1>
+		<p>The quiz flow is sequential, which means that when you answer or skip a question you will NOT BE ABLE to go back to it!</p>
+		<h2>Choose a Quiz to Attempt:</h2>
+		<div class="quiz-buttons">
+			<button id="programming-button">Programming</button>
+			<button id="netflix-button">Netflix</button>
+      <button id="history-button">General Questions</button>
+		</div>
+	</div>
+</body>
+</html>
+
+  <script>
+ 
+    const historyButton = document.getElementById('history-button');
+    historyButton.addEventListener('click', () => {
+      window.location.href = 'quizGE.html';
+    });
+    
+    const programmingButton = document.getElementById('programming-button');
+    programmingButton.addEventListener('click', () => {
+      window.location.href = 'quizProgramming.html';
+    });
+    
+    const netflixButton = document.getElementById('netflix-button');
+    netflixButton.addEventListener('click', () => {
+      window.location.href = 'quizNetflix.html';
+    });
+    
+    const geographyButton = document.getElementById('geography-button');
+    geographyButton.addEventListener('click', () => {
+      window.location.href = 'quizGeo.html';
+    });
+  </script>
+</body>
+</html>
