@@ -87,7 +87,7 @@ function displayScore() {
        txt="Average";
     else txt ="Insufficient";  
 
-    container.innerHTML = "<h1>" + txt + "</h1><p>" + score + " / " + questions.length + "</p>";
+    container.innerHTML = "<h1>" + txt + " " + sessionStorage.getItem('username') + "</h1><p>" + score + " / " + questions.length + "</p>";
 
     for (let i = 0; i < questions.length; i++) {
         let questionResultElement = document.createElement("div");
