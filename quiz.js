@@ -27,7 +27,8 @@ function checkInputs() {
       document.getElementById("password").value = "";
       return;
     }
-  
+    
+    sessionStorage.setItem('username', name);
     window.location.href = "description.html";
     startButton.disabled = true;
   }
